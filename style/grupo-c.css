@@ -13,6 +13,14 @@ body {
     background-attachment: fixed;
     background-position: center;
 
+    animation-name: animacion-de-body;
+    animation-duration: 2s;
+    
+}
+
+@keyframes animacion-de-body{
+    0% {opacity: 0;}
+    100%{opacity: 1;}
 }
 
 .grid {
@@ -342,13 +350,19 @@ footer {
     nav {
         text-align: center;
         color: white;
-        font-size: 20px;
+        font-size: 14px;
 
+    }
+
+    @keyframes animacion-de-grupo {
+        0% {opacity: 0;}
+        100%{opacity: 1;}
     }
 
     nav a {
         text-decoration: none;
         color: white;
+        font-size: 21px;
     }
 
     footer {
@@ -371,9 +385,7 @@ footer {
         color: white;
         margin: 10px 10px 10px 10px;
         font-size: 30px;
-
     }
-
     .jugadores-afa {
         left: 40px;
         position: relative;
@@ -407,7 +419,7 @@ footer {
 
     .cartilla-de-polonia {
         position: absolute;
-        top: 312px;
+        top: 275px;
         left: 720px;
         justify-items: center;
     }
@@ -506,7 +518,7 @@ footer {
 
     .cartilla-de-arabia-saudita {
         position: absolute;
-        top: 1530px;
+        top: 1488px;
         left: 720px;
     }
 
@@ -560,6 +572,13 @@ footer {
     .nav1{
         position: relative;
         top: 50px;
+    }
+
+    .botones{
+    background-color:rgb(99,29,63);
+    border-radius: 5px;
+    border-color: rgba(161, 0, 175, 0.86);
+    opacity: 80%;
     }
 
     footer{

@@ -12,6 +12,15 @@ body {
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
+
+    animation-name: animacion-de-body;
+    animation-duration: 2s;
+    
+}
+
+@keyframes animacion-de-body{
+    0% {opacity: 0;}
+    100%{opacity: 1;}
 }
 
 .grid {
@@ -183,6 +192,24 @@ footer {
 
     .navo {
         text-align: center;
+        animation-name: animacion-de-grupo;
+        animation-duration: 2s;
+        background-image: linear-gradient(to bottom, rgb(59,0,23) , rgb(94,24,58));
+    }
+
+    .navo a{   width: 100px; height: 100px;
+        transition: all 1s;
+}
+
+    .navo a:focus{
+        width: 200px;
+
+font-size:25px;
+    }
+
+    @keyframes animacion-de-grupo {
+        0% {opacity: 0;}
+        100%{opacity: 1;}
     }
 
     nav {
@@ -191,8 +218,10 @@ footer {
         margin: 10px;
     }
 
+    
+
     nav ul {
-        margin: 10px 20px 10px 20px;
+        margin: 10px 10px 10px 10px;
 
     }
 
@@ -237,6 +266,13 @@ footer {
         text-align: center;
         color: white;
     }
+
+    .botones{
+        background-color:rgb(99,29,63);
+        border-radius: 5px;
+        border-color: rgba(161, 0, 175, 0.86);
+        opacity: 80%;
+        }
 
     footer {
         color: white;

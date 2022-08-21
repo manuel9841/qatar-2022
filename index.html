@@ -25,7 +25,7 @@ integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1
             <nav>
                 <!--inicio de tabla de grupos-->
                 <ul>
-                    <a href="grupo-a">Grupo A</a>
+                    <a href="#">Grupo A</a>
                     <ol>
                         <li>Qatar</li>
                         <li>Ecuador</li>
@@ -35,7 +35,7 @@ integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1
                 </ul>
 
                 <ul>
-                    <a href="grupo-b">Grupo B</a>
+                    <a href="#">Grupo B</a>
                     <ol>
                         <li>Inlaterra</li>
                         <li>Iran</li>
@@ -55,7 +55,7 @@ integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1
                 </ul>
 
                 <ul>
-                    <a href="grupo-d">Grupo D</a>
+                    <a href="#">Grupo D</a>
                     <ol>
                         <li>Francia</li>
                         <li>Autralia</li>
@@ -65,7 +65,7 @@ integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1
                 </ul>
 
                 <ul>
-                    <a href="grupo-e">Grupo E</a>
+                    <a href="#">Grupo E</a>
                     <ol>
                         <li>España</li>
                         <li>Costa Rica</li>
@@ -75,7 +75,7 @@ integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1
                 </ul>
 
                 <ul>
-                    <a href="grupo-f">Grupo F</a>
+                    <a href="#">Grupo F</a>
                     <ol>
                         <li>Belgica</li>
                         <li>Canada</li>
@@ -85,7 +85,7 @@ integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1
                 </ul>
 
                 <ul>
-                    <a href="grupo-g">Grupo G</a>
+                    <a href="#">Grupo G</a>
                     <ol>
                         <li>Brasil</li>
                         <li>Serbia</li>
@@ -95,7 +95,7 @@ integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1
                 </ul>
 
                 <ul>
-                    <a href="grupo-h">Grupo H</a>
+                    <a href="#">Grupo H</a>
                     <ol>
                         <li>Portugal</li>
                         <li>Ghana</li>
@@ -260,23 +260,23 @@ integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1
 
                 <br />
 
-                <label for="Nombre">Nombre:</label>
-                <input type="text" placeholder="Nombre" />
+                <label for="Nombre">Nombre : </label>
+                <input type="text" class="botones" placeholder="Nombre" />
 
                 <br />
 
-                <label for="Apellido">Apellido:</label>
-                <input type="text" placeholder="Apellido" />
+                <label for="Apellido">Apellido : </label>
+                <input type="text" class="botones" placeholder="Apellido" />
 
                 <br />
 
-                <label for="Telefono">Telefono:</label>
-                <input type="text" placeholder="Telefono" />
+                <label for="Telefono">Telefono : </label>
+                <input type="text" class="botones" placeholder="Telefono" />
 
                 <br />
 
                 <label for="grupos">Grupos</label>
-                <select id="grupos">
+                <select class="botones" id="grupos">
                     <option value="grupo-a">Grupo A</option>
                     <option value="grupo-b">Grupo B</option>
                     <option value="grupo-c">Grupo C</option>
@@ -288,14 +288,14 @@ integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1
                 </select>
                 <fieldset>
                     <legend>Credencial de aficionado</legend>
-                    <label for="email">Correo electronico</label>
-                    <input type="email" id="email" placeholder="nombre@ejemplo.com" />
+                    <label for="email">Correo electronico :</label>
+                    <input type="email" id="email" class="botones" placeholder="nombre@ejemplo.com" />
 
-                    <label for="password1">Contraseña:</label>
-                    <input type="password1" id="password1" />
+                    <label for="password1">Contraseña :</label>
+                    <input class="botones" type="password" id="password1" />
 
-                    <label for="password2">Repite la contraseña</label>
-                    <input type="password" id="password2" />
+                    <label for="password2">Repite la contraseña :</label>
+                    <input class="botones" type="password" id="password2" />
                 </fieldset>
 
                 <div id="terminos">
@@ -303,9 +303,9 @@ integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1
                     <input type="checkbox" name="acepto" value="1" />
                 </div>
                 <div>
-                    <input type="button" value="sin accion" />
-                    <input type="reset" value="limpiar campo" />
-                    <input type="submit" value="registrarme" />
+                    <input class="botones" type="button" value="sin accion" />
+                    <input class="botones" type="reset" value="limpiar campo" />
+                    <input class="botones" type="submit" value="registrarme" />
                 </div>
             </from>
         </nav>
